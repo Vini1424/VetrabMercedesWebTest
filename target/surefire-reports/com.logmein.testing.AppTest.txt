@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.logmein.testing.AppTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 45.051 s <<< FAILURE! - in com.logmein.testing.AppTest
+amazonPrice(com.logmein.testing.AppTest)  Time elapsed: 22.918 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:29900
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VINI1424', ip: '192.168.108.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: FirefoxDriver
+	at com.logmein.testing.AppTest.runInBrowser(AppTest.java:86)
+	at com.logmein.testing.AppTest.amazonPrice(AppTest.java:60)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:29900
+	at com.logmein.testing.AppTest.runInBrowser(AppTest.java:86)
+	at com.logmein.testing.AppTest.amazonPrice(AppTest.java:60)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.logmein.testing.AppTest.runInBrowser(AppTest.java:86)
+	at com.logmein.testing.AppTest.amazonPrice(AppTest.java:60)
+
+b(com.logmein.testing.AppTest)  Time elapsed: 22.115 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:17582
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VINI1424', ip: '192.168.108.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: FirefoxDriver
+	at com.logmein.testing.AppTest.runInBrowser(AppTest.java:86)
+	at com.logmein.testing.AppTest.b(AppTest.java:45)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:17582
+	at com.logmein.testing.AppTest.runInBrowser(AppTest.java:86)
+	at com.logmein.testing.AppTest.b(AppTest.java:45)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.logmein.testing.AppTest.runInBrowser(AppTest.java:86)
+	at com.logmein.testing.AppTest.b(AppTest.java:45)
+

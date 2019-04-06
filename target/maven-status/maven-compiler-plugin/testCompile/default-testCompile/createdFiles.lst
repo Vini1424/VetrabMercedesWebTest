@@ -1,0 +1,10 @@
+com\logmein\testing\BasicAnnotationTests.class
+com\logmein\testing\VisualVerificationTest.class
+com\logmein\testing\pageobjects\LoginPage.class
+com\logmein\testing\SeleniumTests.class
+com\logmein\testing\ContactUsTest.class
+com\logmein\testing\pageobjects\ProbaContactUsPage.class
+com\logmein\testing\AppTest.class
+com\logmein\testing\pageobjects\HomePage.class
+com\logmein\testing\LoginTest.class
+com\logmein\testing\pageobjects\ContactUsPage.class

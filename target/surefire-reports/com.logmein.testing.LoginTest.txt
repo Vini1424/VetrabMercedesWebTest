@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.logmein.testing.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 39.975 s <<< FAILURE! - in com.logmein.testing.LoginTest
+loginWithValidCredentials(com.logmein.testing.LoginTest)  Time elapsed: 19.955 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VINI1424', ip: '192.168.108.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+	at com.logmein.testing.LoginTest.Before(LoginTest.java:32)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:4877/status] to be available after 20000 ms
+	at com.logmein.testing.LoginTest.Before(LoginTest.java:32)
+Caused by: java.util.concurrent.TimeoutException
+	at com.logmein.testing.LoginTest.Before(LoginTest.java:32)
+
+loginWithValidCredentials(com.logmein.testing.LoginTest)  Time elapsed: 19.955 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.logmein.testing.LoginTest.After(LoginTest.java:69)
+
+loginWithValidCredentialsUsePOs(com.logmein.testing.LoginTest)  Time elapsed: 20.019 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VINI1424', ip: '192.168.108.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+	at com.logmein.testing.LoginTest.Before(LoginTest.java:32)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:2533/status] to be available after 20000 ms
+	at com.logmein.testing.LoginTest.Before(LoginTest.java:32)
+Caused by: java.util.concurrent.TimeoutException
+	at com.logmein.testing.LoginTest.Before(LoginTest.java:32)
+
+loginWithValidCredentialsUsePOs(com.logmein.testing.LoginTest)  Time elapsed: 20.019 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.logmein.testing.LoginTest.After(LoginTest.java:69)
+
